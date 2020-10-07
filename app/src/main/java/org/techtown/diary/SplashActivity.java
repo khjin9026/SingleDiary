@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.os.Handler;
 
 public class SplashActivity extends AppCompatActivity {
-    Handler handler = new Handler();
+    Handler handler = new Handler(); //메서드 내에서 스레드를 실행할 때 사용
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
